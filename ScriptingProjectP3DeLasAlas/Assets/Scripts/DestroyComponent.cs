@@ -7,7 +7,7 @@ public class DestroyComponent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Renderer>().material.color = Color.green;
+        GetComponent<MeshRenderer>().material.color = Color.green;
     }
 
     // Update is called once per frame
