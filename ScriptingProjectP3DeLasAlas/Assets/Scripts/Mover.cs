@@ -10,7 +10,7 @@ public class Mover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.renderer.material.color = Color.green;
+        gameObject.GetComponent<Renderer>().material.color = Color.green;
     }
 
     // Update is called once per frame
